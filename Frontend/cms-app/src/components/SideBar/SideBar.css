@@ -1,0 +1,78 @@
+/* ---------- Sidebar ---------- */
+.sidebar {
+    width: 260px;
+    background: var(--sidebar-bg);
+    color: #c9cbe0;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    padding: 0 8px;
+}
+
+.logo span {
+    color: #17c98d;
+}
+
+.nav-label {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #6b6f8a;
+    margin: 18px 8px 10px;
+    font-weight: 600;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #c9cbe0;
+    text-decoration: none;
+    margin-bottom: 4px;
+    transition: background 0.15s ease;
+}
+
+.nav-item:hover {
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.nav-item.active {
+    background: var(--sidebar-active);
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-item .icon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.upgrade-card {
+    margin-top: auto;
+    background: #1e2444;
+    border-radius: 12px;
+    padding: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}

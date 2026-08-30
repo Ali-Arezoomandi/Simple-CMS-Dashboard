@@ -1,0 +1,38 @@
+:root {
+    --sidebar-bg: #151a34;
+    --sidebar-active: #4f6bfa;
+    --bg: #f3f4f8;
+    --card-bg: #ffffff;
+    --text-dark: #1c2135;
+    --text-muted: #8b8fa3;
+    --border: #e3e6ef;
+    --blue: #4f6bfa;
+    --green: #17c98d;
+    --red: #f2455c;
+    --orange: #f6a821;
+    --radius: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    font-family: "Inter", sans-serif;
+    background: var(--bg);
+    color: var(--text-dark);
+    display: flex;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ---------- Main ---------- */
+.main {
+    flex: 1;
+    max-width: calc(100% - 260px);
+}

@@ -1,0 +1,9 @@
+Backend/venv/
+Backend/__pycache__/
+Backend/**/__pycache__/
+Backend/*.pyc
+Backend/.env
+Backend/db.sqlite3
+Frontend/cms-app/node_modules/
+Frontend/cms-app/.env
+Frontend/cms-app/build/
